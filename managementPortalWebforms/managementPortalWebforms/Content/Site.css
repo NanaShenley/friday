@@ -43,3 +43,10 @@ input[type="select"] {
     background-color: #222222;
     border-color: #080808;
 }
+
+a.activeLink {
+    color: red;    
+}
+.activeLink {
+    color:red;
+}

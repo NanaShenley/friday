@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="managementPortalWebforms.SiteMaster" %>
+﻿<%@ Master EnableViewState="true" Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="managementPortalWebforms.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -69,14 +69,14 @@
                 <div class="navbar-collapse collapse">
                     <ul id="list" runat="server" class="nav navbar-nav">
                         <li><a id="home" OnServerClick="Click" runat="server" href="~/portal/asdf/Default.aspx">Home</a></li>
-                        <li><a id="about" OnServerClick="Click" runat="server" href="~/portal/asdf/About.aspx">About</a></li>
+                        <li><a id="about" OnServerClick="Click" runat="server" href="~/portal/asdf/About.aspx">Item</a></li>
                         <li><a id="contact" OnServerClick="Click" runat="server" href="~/portal/asdf/Contact">Contact</a></li>
-                        <li><a id="home1" OnServerClick="Click" runat="server" href="~/portal/asdf/">Home</a></li>
-                        <li><a id="about1" OnServerClick="Click" runat="server" href="~/portal/asdf/About">About</a></li>
+                      <%--  <li><a id="home1" OnServerClick="Click" runat="server" href="~/portal/asdf/">Home</a></li>
+                        <li><a id="about1" OnServerClick="Click" runat="server" href="~/portal/asdf/About">Item</a></li>
                         <li><a id="contact1" OnServerClick="Click" runat="server" href="~/portal/asdf/Contact">Contact</a></li>
                         <li><a id="home3"  OnServerClick="Click" runat="server" href="~/portal/asdf/">Home</a></li>
-                        <li><a id="about3" OnServerClick="Click" runat="server" href="~/portal/asdf/About">About</a></li>
-                        <li><a id="contact3" OnServerClick="Click" runat="server" href="~/portal/asdf/Contact">Contact</a></li>
+                        <li><a id="about3" OnServerClick="Click" runat="server" href="~/portal/asdf/About">Item</a></li>
+                        <li><a id="contact3" OnServerClick="Click" runat="server" href="~/portal/asdf/Contact">Contact</a></li>--%>
                     </ul>
                     
                     <asp:LoginView runat="server" ViewStateMode="Disabled">

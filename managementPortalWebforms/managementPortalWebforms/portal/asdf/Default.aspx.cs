@@ -21,23 +21,23 @@ namespace managementPortalWebforms
             home.Style.Add("border-bottom", "solid 3px red");
 
 
-            //INSERT
-            string connetionString = null;
-            SqlConnection connection;
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            string sql = null;
-            connetionString = "Data Source=(LocalDb)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\aspnet-managementPortalWebforms-20171011122107.mdf;Initial Catalog=aspnet-managementPortalWebforms-20171011122107;Integrated Security=True";
-            connection = new SqlConnection(connetionString);
-            sql = "insert into items (Title) values('Title 1')";
-            try
-            {
-                connection.Open();
-                adapter.InsertCommand = new SqlCommand(sql, connection);
-                adapter.InsertCommand.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-            }
+            ////INSERT
+            //string connetionString = null;
+            //SqlConnection connection;
+            //SqlDataAdapter adapter = new SqlDataAdapter();
+            //string sql = null;
+            //connetionString = "Data Source=(LocalDb)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\aspnet-managementPortalWebforms-20171011122107.mdf;Initial Catalog=aspnet-managementPortalWebforms-20171011122107;Integrated Security=True";
+            //connection = new SqlConnection(connetionString);
+            //sql = "insert into items (Title) values('Title 1')";
+            //try
+            //{
+            //    connection.Open();
+            //    adapter.InsertCommand = new SqlCommand(sql, connection);
+            //    adapter.InsertCommand.ExecuteNonQuery();
+            //}
+            //catch (Exception ex)
+            //{
+            //}
         }
     }
 }
